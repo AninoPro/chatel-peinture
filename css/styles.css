@@ -233,17 +233,17 @@ h2 {
 .ci { display: grid; place-items: center; width: 42px; height: 42px; background: var(--lime); border-radius: 12px; font-size: 1.1rem; flex-shrink: 0; }
 .contact-list a:hover { color: var(--lime-dark); }
 
-.contact-form { background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-soft); }
-.field { margin-bottom: 1.1rem; }
-.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-.field label { display: block; font-weight: 700; font-size: 0.85rem; margin-bottom: 0.4rem; }
-.field input, .field textarea {
-  width: 100%; font-family: inherit; font-size: 1rem; padding: 0.75rem 0.9rem;
-  border: 1.5px solid var(--line); border-radius: 10px; background: var(--paper-warm);
-  transition: border-color 0.2s, background 0.2s;
+.contact-cta {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 2.4rem 2rem; box-shadow: var(--shadow-soft); text-align: center;
 }
-.field input:focus, .field textarea:focus { outline: none; border-color: var(--lime); background: #fff; }
-.field textarea { resize: vertical; }
+.contact-cta-icon {
+  display: grid; place-items: center; width: 60px; height: 60px; margin: 0 auto 1.1rem;
+  background: var(--lime); border-radius: 16px; font-size: 1.7rem; transform: rotate(-6deg);
+}
+.contact-cta h3 { font-size: 1.4rem; margin-bottom: 0.6rem; }
+.contact-cta p { color: var(--gray); font-size: 1rem; margin-bottom: 1.4rem; }
+.contact-cta .btn-block { margin-bottom: 0.4rem; }
 .form-note { text-align: center; font-size: 0.9rem; color: var(--gray); margin-top: 0.9rem; }
 .form-note a { color: var(--ink); font-weight: 700; }
 

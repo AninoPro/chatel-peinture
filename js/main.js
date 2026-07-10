@@ -35,7 +35,7 @@ document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 
 // Ajoute .reveal aux blocs de contenu au chargement
 document
-  .querySelectorAll(".section-head, .card, .gallery-item, .review, .contact-form")
+  .querySelectorAll(".section-head, .card, .gallery-item, .review, .contact-cta")
   .forEach((el) => {
     el.classList.add("reveal");
     observer.observe(el);

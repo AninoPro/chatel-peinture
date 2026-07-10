@@ -53,11 +53,12 @@ python3 -m http.server 8000
 3. Dans **Settings → Pages → Custom domain**, renseigner le domaine et cocher
    « Enforce HTTPS ».
 
-## Formulaire de contact
+## Contact / demande de devis
 
-Le formulaire utilise [FormSubmit](https://formsubmit.co) et envoie les demandes
-à `raphaelfouquet@gmail.com`. Le **premier** envoi déclenche un email de
-confirmation à valider une seule fois. Aucun serveur à héberger.
+Aucune dépendance externe : le bouton « Écrire un email » est un lien `mailto:`
+qui ouvre l'application de messagerie de l'utilisateur avec un message
+pré-rempli (objet + trame de renseignements). L'adresse destinataire se change
+directement dans le `href` du lien, dans `index.html` (section `#contact`).
 
 ## Informations entreprise
 
